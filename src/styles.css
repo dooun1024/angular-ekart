@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Noto+Sans+JP:wght@100..900&family=ZCOOL+KuaiLe&display=swap');
+@import "~../node_modules/bootstrap/dist/css/bootstrap.min.css";
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	/* font-family:"ZCOOL KuaiLe",sans-serif; */
+}
+.ekart-logo{
+	font-family: "Concert One",sans-serif;
+}
