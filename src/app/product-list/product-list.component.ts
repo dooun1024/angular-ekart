@@ -6,7 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  name: string = 'iPhone';
-  price: number = 999;
-  color:string = 'Red';
+  product  =  {
+    name : 'iPhone',
+    price : 999,
+    color : 'Red'
+  }
+
+  display = false;
+
+  onClick(){
+    this.display = true;
+  }
 }
