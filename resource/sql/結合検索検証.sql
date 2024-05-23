@@ -19,9 +19,9 @@ FROM
 	ON 
 		"a_400_インデクス".user_id = "d_180_インデクス".user_id
 WHERE
-	"a_400_インデクス"."スキル" LIKE '%箱根%' or
-	"b_270_インデクス".page_title LIKE '%東京%' or
-	"c_400_インデクス".page_title LIKE '%王子%'
+	"a_400_インデクス"."スキル" LIKE '%それ%' or
+	"b_270_インデクス".page_title LIKE '%SHIFT%' or
+	"c_400_インデクス".page_title LIKE '%それ%'
 	
 		---------------------------- and 
 explain analyze SELECT
@@ -45,6 +45,6 @@ FROM
 	ON 
 		"a_400_インデクス".user_id = "d_180_インデクス".user_id
 WHERE
-	"a_400_インデクス"."スキル" LIKE '%箱根%' and
-	"b_270_インデクス".page_title LIKE '%東京%' and
-	"c_400_インデクス".page_title LIKE '%王子%'
+	"a_400_インデクス"."スキル" LIKE '%それ%' and
+	"b_270_インデクス".page_title LIKE '%SHIFT%' and
+	"c_400_インデクス".page_title LIKE '%それ%'
